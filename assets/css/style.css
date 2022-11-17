@@ -1,23 +1,39 @@
-nav {
+.navbar {
   background-color: #57ce45;
 }
 
-.barraBusqueda{
-  padding:0;
+.barraBusqueda {
+  padding: 0;
 }
 
-#iconoEnlace{
+.contenedor-encabezado{
+  max-width: 100%;;
+}
+
+#iconoEnlace {
   margin-left: 10%;
 }
 
-.iconoLink{
-  color:black;
+.iconoLink {
+  color: black;
 }
 
-.iconoLink:hover{
+.iconoLink:hover {
   transform: scale(1.5);
-  color:black;
+  color: black;
 }
-h7{
+
+h7 {
   text-align: center;
+}
+
+
+.imagenCarrusel {
+  max-width: 20rem;
+  height: 30rem;
+}
+
+
+.sombra {
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
 }

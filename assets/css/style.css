@@ -1,0 +1,23 @@
+nav {
+  background-color: #57ce45;
+}
+
+.barraBusqueda{
+  padding:0;
+}
+
+#iconoEnlace{
+  margin-left: 10%;
+}
+
+.iconoLink{
+  color:black;
+}
+
+.iconoLink:hover{
+  transform: scale(1.5);
+  color:black;
+}
+h7{
+  text-align: center;
+}

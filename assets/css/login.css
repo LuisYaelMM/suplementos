@@ -12,7 +12,7 @@
 }
 
 .img-login{
-    background-image: url(/imgs/login.jpg);
+    background-image: url(/assets/img/login/login.jpg);
     background-size: cover;
     background-position: center; 
 }

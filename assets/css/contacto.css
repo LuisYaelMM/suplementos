@@ -1,0 +1,131 @@
+.encabezado{
+    background-color: #57CE45;
+}
+
+ body{
+   
+    min-height: 100vh;
+    background-image: url("Royal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}  
+body :before{
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(90deg, #99e277, #8fce72);
+
+    opacity: 0.1;
+    z-index: -1;
+}
+ 
+
+.tarriba{
+    margin-top: 25px;
+    margin-left: 100px;
+
+}
+
+form{
+    position: relative;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+
+}
+
+.cuadnom{
+    width: 700px;
+    height: 200px;
+    padding-bottom: 170px;
+    
+}
+
+.nombre{
+    margin: 10px;
+}
+.email{
+    margin: 10px;
+}
+.mensaje{
+    margin: 10px;
+}
+
+
+
+.buscador{
+    position: absolute;
+    top: 1%; 
+    left: 18%;
+    right: 30%;
+    margin: 0;
+    padding: 0;
+}
+
+.acepto{
+    margin: 20px;
+}
+.btn{
+    background-color: black;
+    color: white;
+}
+
+
+.pie{
+    width: 100%;
+    background-color: #57CE45;
+
+}
+.pie .izq{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 45px 0px;
+}
+
+.pie .centro{
+    padding: 10px 15px;
+    text-align: center;
+}
+.pie .derecha{
+    padding: 45px 0px;
+    text-align: right;
+}
+/* footer{
+    background-color: #57CE45;
+    margin: 0;
+    padding: 0;
+} */
+
+@media screen and (max-width:1000px){
+    .nom{
+        flex-direction: column;
+        width: 500px;
+    }
+    .em{
+        flex-direction: column;
+        width: 500px;
+    }
+    .cuadnom{
+        flex-direction:column;
+        width: 500px;
+        height: 100px;
+        padding-bottom: 80px;
+    
+    }
+    .pie .izq{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 35px 0px;
+    }
+}

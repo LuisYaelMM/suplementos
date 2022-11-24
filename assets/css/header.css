@@ -9,6 +9,11 @@
 .contenedor-encabezado{
   max-width: 100%;;
 }
+@media screen and (max-width:450px){
+  .responsivo-busqueda{
+    display:none;
+  }
+}
 
 #iconoEnlace {
   margin-left: 10%;

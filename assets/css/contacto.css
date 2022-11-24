@@ -1,11 +1,11 @@
-.encabezado{
+.navbar{
     background-color: #57CE45;
 }
 
  body{
    
     min-height: 100vh;
-    background-image: url("Royal.jpg");
+    background-image: url("/assets/img/Royal.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -45,11 +45,18 @@ form{
     width: 700px;
     height: 200px;
     padding-bottom: 170px;
+    border-radius: 10px;
     
 }
 
 .nombre{
     margin: 10px;
+}
+.nom{
+    border-radius: 7px;
+}
+.em{
+    border-radius: 7px;
 }
 .email{
     margin: 10px;
@@ -76,36 +83,13 @@ form{
     background-color: black;
     color: white;
 }
-
-
-.pie{
-    width: 100%;
-    background-color: #57CE45;
-
-}
-.pie .izq{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-gap: 50px;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 45px 0px;
+.btn:hover{
+    background-color: white;
+    color: black;
 }
 
-.pie .centro{
-    padding: 10px 15px;
-    text-align: center;
-}
-.pie .derecha{
-    padding: 45px 0px;
-    text-align: right;
-}
-/* footer{
-    background-color: #57CE45;
-    margin: 0;
-    padding: 0;
-} */
+
+
 
 @media screen and (max-width:1000px){
     .nom{
@@ -123,9 +107,5 @@ form{
         padding-bottom: 80px;
     
     }
-    .pie .izq{
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        padding: 35px 0px;
-    }
+  
 }

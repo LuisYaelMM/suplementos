@@ -12,7 +12,11 @@
 }
 
 .img-login{
-    background-image: url(/assets/img/login/login.jpg);
+    background-image: url(http://drive.google.com/uc?export=view&id=12hY44c4lpCJRYj35h93IoTwzfIVCd_Wr);
     background-size: cover;
     background-position: center; 
+}
+
+.login{
+    height: 80vh 
 }

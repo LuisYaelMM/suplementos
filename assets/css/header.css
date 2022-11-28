@@ -9,6 +9,17 @@
 .contenedor-encabezado{
   max-width: 100%;;
 }
+@media screen and (max-width:450px){
+  .responsivo-busqueda{
+    display:none;
+  }
+  .iconoLink{
+    transform:scale(0.5);
+  }
+  .nombre-icono{
+    display:none;
+  }
+}
 
 #iconoEnlace {
   margin-left: 10%;

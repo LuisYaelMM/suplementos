@@ -40,12 +40,23 @@ h1{
     background-color: rgb(1, 247, 1);
     color: white;
     border-color: limegreen;
+    margin-bottom: 1em;
 }
 .btn:hover{
     background-color: white;
     color: black;
     border-color: whitesmoke;
 }
+/* css footer */
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+}
+/* fin css footer */
 @media screen and (max-width:1000px){
    .arriba{
     flex-direction: column;

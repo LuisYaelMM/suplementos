@@ -12,3 +12,7 @@
   background-size: cover;
   background-position: center; 
 }
+
+.btn-primary{
+  font-size: 1.3rem;
+}

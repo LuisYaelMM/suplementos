@@ -3,7 +3,7 @@ const email = document.getElementById("exampleInputEmail1")
 const pass = document.getElementById("exampleInputPassword1")
 const form = document.getElementById("form1")
 
-form.addEventListener("submit",e=>){
+form.addEventListener("submit",e=>{
     e.preventDefault()
     let warnings=""
     let entrar = false
@@ -11,4 +11,4 @@ form.addEventListener("submit",e=>){
     if(nombre.ariaValueMax.length<6){
         warnings += `El nombre no es valido <br>`
     }
-}
+})

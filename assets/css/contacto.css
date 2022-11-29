@@ -1,111 +1,87 @@
-.navbar{
-    background-color: #57CE45;
-}
 
- body{
+/* css CONTACTO */
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
    
-    min-height: 100vh;
-    background-image: url("/assets/img/Royal.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    
-}  
-body :before{
-    content: "";
-    width: 100%;
-    min-height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    background: linear-gradient(90deg, #99e277, #8fce72);
-
-    opacity: 0.1;
-    z-index: -1;
 }
- 
-
-.tarriba{
-    margin-top: 25px;
-    margin-left: 100px;
-
+.arriba{
+    margin-top: 1rem;
+    margin-left: 4rem;
 }
-
-form{
-    position: relative;
-    margin-left: 100px;
-    margin-top: 20px;
-    margin-bottom: 80px;
+.container{
+    display: inline-block;
+    margin-left: 5rem;
+    margin-right: 1rem;
 
 }
 
 .cuadnom{
-    width: 700px;
-    height: 200px;
-    padding-bottom: 170px;
-    border-radius: 10px;
-    
+    width: 35rem;
 }
-
-.nombre{
-    margin: 10px;
-}
-.nom{
-    border-radius: 7px;
-}
-.em{
-    border-radius: 7px;
-}
-.email{
-    margin: 10px;
+.mail{
+    width: 35rem;
 }
 .mensaje{
-    margin: 10px;
+    width: 35rem;
+    height: 13rem;
+    padding-bottom: 180px;
+}
+.oso{
+    border-radius: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+.segundocont{
+   display: inline-block;
+   position:absolute;
+   right: 200px;
+   top: 240px;
 }
 
-
-
-.buscador{
-    position: absolute;
-    top: 1%; 
-    left: 18%;
-    right: 30%;
-    margin: 0;
-    padding: 0;
-}
-
-.acepto{
-    margin: 20px;
-}
 .btn{
-    background-color: black;
+    background-color: rgb(1, 247, 1);
     color: white;
+    border-color: limegreen;
 }
 .btn:hover{
     background-color: white;
     color: black;
+    border-color: whitesmoke;
 }
-
-
-
-
 @media screen and (max-width:1000px){
-    .nom{
-        flex-direction: column;
-        width: 500px;
-    }
-    .em{
-        flex-direction: column;
-        width: 500px;
-    }
+   .arriba{
+    flex-direction: column;
+    margin-left: 6rem;
+   }
     .cuadnom{
-        flex-direction:column;
-        width: 500px;
-        height: 100px;
-        padding-bottom: 80px;
-    
+        flex-direction: column;
+        width: 20rem;
+        padding: 0;
+        
     }
-  
+    .mail{
+        flex-direction: column;
+        width: 20rem;
+        padding: 0;
+        
+    }
+    .mensaje{
+        flex-direction:column;
+       width: 20rem;
+        height: 15rem;
+        padding-bottom: 220px; 
+       
+    }
+.oso{
+    display:none;
+   /*  position:absolute;
+    top: 700px;
+    left: 30px;
+   width: 5rem;
+   height: 5rem;
+   border-radius: 1em; */
+}
+ .container{
+        margin-right: 1rem;
+    }
+    
 }

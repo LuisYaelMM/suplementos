@@ -26,7 +26,7 @@
     display: none;
   }
   .iconoLink {
-    transform: scale(0.8);
+    transform: scale(0.5);
   }
 
   #iconosMobile{
@@ -42,7 +42,7 @@
   }
 
   #tamano-logo {
-    width: 40%;
+    width: 30%;
     height: auto;
     padding-left: 0;
   }

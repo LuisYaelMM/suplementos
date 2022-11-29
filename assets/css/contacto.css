@@ -34,7 +34,7 @@ h1{
    display: inline-block;
    position:absolute;
    right: 200px;
-   top: 240px;
+   top: 110px;
 }
 
 .btn{
@@ -69,6 +69,7 @@ h1{
        width: 20rem;
         height: 15rem;
         padding-bottom: 220px; 
+        padding-left: 1px;
        
     }
 .oso{

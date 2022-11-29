@@ -2,11 +2,10 @@
 /* css CONTACTO */
 h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-   
 }
 .arriba{
     margin-top: 1rem;
-    margin-left: 4rem;
+    margin-left: 5rem;
 }
 .container{
     display: inline-block;

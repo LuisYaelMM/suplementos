@@ -3,6 +3,8 @@
     background-color: #57CE45;
     margin: 0;
     padding: 0;
+    max-width: 100%;
+    margin-top: 50px;
 }
 body{
     min-height: 100vh;
@@ -12,6 +14,17 @@ body{
 footer{
     margin-top: auto;
 }
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+}
+
+
 
 .pie-pagina .grupo1{
   width: auto;

@@ -6,6 +6,27 @@
   padding: 0;
 }
 
+ HEAD
+.contenedor-encabezado{
+  max-width: 100%;
+}
+@media screen and (max-width:820px){
+  .responsivo-busqueda{
+    display:none;
+  }
+  .iconoLink{
+    transform:scale(0.8);
+  }
+  .nombre-icono{
+    display:none;
+  }
+  .iconos{
+    display:none;
+  }
+}
+
+
+
 #iconoEnlace {
   margin-left: 10%;
 }

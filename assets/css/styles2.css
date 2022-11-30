@@ -6,6 +6,14 @@
     max-width: 100%;
     margin-top: 50px;
 }
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+}
 
 body{
     min-height: 100vh;

@@ -8,13 +8,17 @@
 }
 
 .img-login{
-  background-image: url(/assets/img/CrearCuenta.jpg);
+  background-image: url(https://hips.hearstapps.com/hmg-prod/images/gettyimages-1369898014.jpg?crop=0.669xw:1.00xh;0.230xw,0&resize=640:*);
   background-size: cover;
-  background-position: center; 
+  background-position: center;
 }
 
 .btn-primary{
   font-size: 1.3rem;
   background-color: #57CE45;
   border: 0px;
+}
+
+.login{
+  margin-top: 50px;
 }

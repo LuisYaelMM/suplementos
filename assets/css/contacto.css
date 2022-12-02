@@ -2,18 +2,27 @@
 /* css CONTACTO */
 h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+   
 }
 .arriba{
     margin-top: 1rem;
-    margin-left: 5rem;
+    margin-left: 4rem;
 }
-.container{
+ .contenedor-contactanos{
     display: inline-block;
-    margin-left: 5rem;
+    margin-left: 3rem;
     margin-right: 1rem;
 
+} 
+.img-login{
+    background-image: url(/Royal.jpg);
+    background-size: cover;
+    background-position: center; 
+    width: 35em;
+  }
+.mb-3{
+    align-items: flex-end;
 }
-
 .cuadnom{
     width: 35rem;
 }
@@ -33,30 +42,19 @@ h1{
    display: inline-block;
    position:absolute;
    right: 200px;
-   top: 110px;
+   top: 240px;
 }
 
-.btn{
+ .boton-contactanos{
     background-color: rgb(1, 247, 1);
     color: white;
     border-color: limegreen;
-    margin-bottom: 1em;
-}
-.btn:hover{
+} 
+.boton-contactanos:hover{
     background-color: white;
     color: black;
     border-color: whitesmoke;
 }
-/* css footer */
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-footer{
-    margin-top: auto;
-}
-/* fin css footer */
 @media screen and (max-width:1000px){
    .arriba{
     flex-direction: column;
@@ -79,7 +77,6 @@ footer{
        width: 20rem;
         height: 15rem;
         padding-bottom: 220px; 
-        padding-left: 1px;
        
     }
 .oso{

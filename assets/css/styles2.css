@@ -53,6 +53,21 @@ justify-content: center;
 margin-bottom: 30px;
 }
 
+.facelogo{
+    width: 30px;
+   height: 30px;
+}
+
+.logoinsta{
+    width: 30px;
+   height: 30px;
+}
+
+.logotwi{
+    width: 30px;
+   height: 30px;
+}
+
 
 .pie-pagina .grupo1 .box3 p{
     font-family: 'Arial';

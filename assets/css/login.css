@@ -1,11 +1,4 @@
 
-
-
-
-.body{
-    font-weight: 300; 
-    color: white !important;}
-
 .form-control, .btn{
     min-height: 1.5rem;
     line-height: initial;
@@ -18,5 +11,5 @@
 }
 
 .login{
-    height: 90vh 
+    height: calc(100vh - 20px)
 }

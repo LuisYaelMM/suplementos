@@ -4,9 +4,8 @@
     margin: 0;
     padding: 0;
     max-width: 100%;
-    margin-top: 100px;
-<<<<<<< HEAD
-=======
+    margin-top: 360px;
+
 }
 body{
     min-height: 100vh;
@@ -15,7 +14,7 @@ body{
 }
 footer{
     margin-top: auto;
->>>>>>> main
+
 }
 
 body{
@@ -24,7 +23,7 @@ body{
     flex-direction: column;
 }
 footer{
-    margin-top: auto;
+    margin-top: 50px;
 }
 
 

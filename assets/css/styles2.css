@@ -1,16 +1,39 @@
 .pie-pagina{
     width: 100%;
     background-color: #57CE45;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    margin-top: 100px;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
 }
 
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+}
+
+
 .pie-pagina .grupo1{
-  width: 1200px;
+  width: auto;
   height: 143px;
   margin: 10px;  
   display:grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 5px;
   padding: 5px 0px;
+  
 }
 .pie-pagina .grupo1 .box1{
     width: 100%;
@@ -19,40 +42,28 @@
     align-items: center;
     margin-left: 0px;
 
+
 }
 
-.pie-pagina .grupo1 .box2 h2{
-   margin-top: 98px; 
+.pie-pagina .grupo1 .box2{
+align-items: center;
+display: flex;
+justify-content: center;
+margin-bottom: 30px;
 }
 
-.pie-pagina .grupo1 .box2 .social{
-    display: flex;
-    text-decoration: none ;
-    width: 40px;
-    height: 45px;
-    line-height: 45px;
-    margin-right: 10px;
-    text-align: center;
-    align-items: center;
-    position: absolute;
-    left: 46.71%;
-    right: 52.43%;
-    top: 10.02%;
-    bottom: 20.33%;
-
-    
-}
 
 .pie-pagina .grupo1 .box3 p{
-    justify-content: right;
-    margin-bottom: 2px;
-    margin-right: 0px;
+    font-family: 'Arial';
     font-style: normal;
-    font-size: 20px;
-    line-height:5px;
+    font-weight: 100;
+    font-size: 17px;
+    line-height: 10px;
     align-items: center;
     text-align: center;
-    letter-spacing:-0.04em
+    margin-right: 10px;
+    letter-spacing: -0.08em;
+    
 }
 .pie-pagina .grupo1 .box3 h2{
     text-align: center;
@@ -61,4 +72,28 @@
 .pie-pagina .grupo2{
 
     text-align: center;
+    font-family: 'Sansation';
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 400;
+    
 }
+
+.link {
+    box-shadow: inset 0 0 0 0 #000000;
+    color: #000000;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  .link:hover {
+    box-shadow: inset 100px 0 0 0 #000000;
+    color: rgb(18, 40, 245);
+  }
+
+@media screen and (max-width: 750px) {
+    .box3{
+    display:none;
+}}
+@media screen and (max-width: 850px) {
+    .box3{
+        font-size: 10px;
+    }}

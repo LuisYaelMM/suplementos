@@ -6,13 +6,7 @@
   padding: 0;
 }
 
-<<<<<<< HEAD
-.contenedor-encabezado{
-  max-width: 100%;;
-}
-
-=======
-<<<<<<< HEAD
+ HEAD
 .contenedor-encabezado{
   max-width: 100%;
 }
@@ -31,15 +25,12 @@
   }
 }
 
-=======
->>>>>>> refs/remotes/origin/main
->>>>>>> main
+
+
 #iconoEnlace {
   margin-left: 10%;
 }
 
-<<<<<<< HEAD
-=======
 .icono-header{
   display:none;
 }
@@ -89,18 +80,14 @@
   margin-left: -1rem;
 }
 
->>>>>>> main
 .iconoLink {
   color: black;
 }
 
-<<<<<<< HEAD
-=======
 .icono-header {
   text-decoration: none;
 }
 
->>>>>>> main
 .iconoLink:hover {
   transform: scale(1.5);
   color: black;
@@ -110,37 +97,15 @@ h7 {
   text-align: center;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> main
 .imagenCarrusel {
   max-width: 20rem;
   height: 30rem;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> main
 .sombra {
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
 }
 
-<<<<<<< HEAD
-.text{
-  color: #FFFFFF;
-  text-shadow: 3px 3px 2px #FFFFFF(128, 0, 0, 1);
-
-}
-.div{
-  display: inline-block;
-}
-#botoon1{
-  background-image: url("https://okdiario.com/img/vida-sana/2015/03/batido-proteinas-1024x720.jpg")  ;
-
-  opacity:0.5;
-=======
 .text {
   color: #ffffff;
   text-shadow: 3px 3px 2px #FFFFFF(128, 0, 0, 1);
@@ -152,7 +117,6 @@ h7 {
   background-image: url("https://okdiario.com/img/vida-sana/2015/03/batido-proteinas-1024x720.jpg");
 
   opacity: 0.5;
->>>>>>> main
   font-size: 30px;
   font-family: sans-serif;
   font-weight: bold;
@@ -161,21 +125,12 @@ h7 {
   height: 8em;
   justify-content: flex left;
   display: flex left;
-<<<<<<< HEAD
-/*   margin-left: 6em;
- */
-}  
-#botoon2{
-  background-image: url("https://st2.depositphotos.com/1001951/7674/i/450/depositphotos_76744017-stock-photo-bodybuilding-nutrition-supplements-and-chemistry.jpg");
-  opacity:0.5;
-=======
   /*   margin-left: 6em;
  */
 }
 #botoon2 {
   background-image: url("https://st2.depositphotos.com/1001951/7674/i/450/depositphotos_76744017-stock-photo-bodybuilding-nutrition-supplements-and-chemistry.jpg");
   opacity: 0.5;
->>>>>>> main
   font-size: 30px;
   font-family: sans-serif;
   font-weight: bold;
@@ -184,16 +139,9 @@ h7 {
   height: 8em;
   justify-content: flex center;
   display: flex center;
-<<<<<<< HEAD
-  margin-left:4em;
-
-}
-#botoon3{
-=======
   margin-left: 4em;
 }
 #botoon3 {
->>>>>>> main
   background-image: url("https://cdn.shopify.com/s/files/1/0553/0435/6031/products/FlowMeteora-Octubre-07_120x.jpg");
   text-shadow: white;
   text-shadow: 3px 3px 2px #FFFFFF(128, 0, 0, 1);
@@ -208,8 +156,4 @@ h7 {
   justify-content: flex right;
   display: flex right;
   margin-left: 4em;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> main

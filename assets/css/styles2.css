@@ -122,6 +122,10 @@ footer{
     .box3{
     display:none;
 }
+
+.link-legal{
+    display:none;
+}
     .link{
         font-size: 2px;
         resize: horizontal;

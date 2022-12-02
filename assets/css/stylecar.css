@@ -1,31 +1,26 @@
 .navbar{
     background-color: #57CE45;
-    min-width: 10%;
-
 }
 .prod{
     background-color:gray;
     margin-right: 2%;
     padding-bottom: 20vh;
-    width: auto;
+
 }
 aside{
     width: auto;
     background-color: gray;
+    
 }
 .cant{
     padding-bottom: 20px;
-    width: fit-content;
 }
 .pay{
 margin-top: 2%;    
-width: fit-content;
-
 }
 .boton{
-    width: 100%;
     margin-top: 2%;       
 }
 .btn-lg{
-    width: min-content;
+    width: 45%;
 }

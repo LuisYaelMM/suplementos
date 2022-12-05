@@ -27,5 +27,8 @@ margin-top: 2%;
     margin-top: 2%;       
 }
 .btn-lg{
-    width: 45%;
+    width: 100%;
+}
+.comprar{
+    size-adjust:inherit;
 }

@@ -1,6 +1,6 @@
 /* css CONTACTO */
 h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: Arial, Helvetica, sans-serif ;
 }
 .arriba{
     margin-top: 1rem;
@@ -71,19 +71,19 @@ footer{
    }
     .cuadnom{
         flex-direction: column;
-        width: 20rem;
+        width: 25rem;
         padding: 0;
         
     }
     .mail{
         flex-direction: column;
-        width: 20rem;
+        width: 25rem;
         padding: 0;
         
     }
     .mensaje{
         flex-direction:column;
-       width: 20rem;
+       width: 25rem;
         height: 15rem;
         padding-bottom: 220px; 
         padding-left: 1px;

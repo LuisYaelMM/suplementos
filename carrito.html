@@ -18,13 +18,21 @@
     ></script>
     <link rel="stylesheet" href="assets/css/header.css" />
     <link rel="stylesheet" href="assets/css/stylecar.css">
+    <link rel="stylesheet" href="assets/css/styles2.css">
   </head>
   <body>
     <div class="container contenedor-encabezado">
       <nav class="navbar navbar-light row">
         <div class="container">
           <div class="col">
-            <a href="#" class="icono-header"
+            <a
+              href="#"
+              class="btn icono-header"
+              role="button"
+              id="dropdownMenuLink"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              class="icono-header"
               ><svg
                 class="iconoLink"
                 width="60"
@@ -53,7 +61,7 @@
                 />
               </svg>
             </a>
-            <a class="navbar-brand enlace-header" id="iconoEnlace" href="#">
+            <a class="navbar-brand enlace-header" id="iconoEnlace" href="index.html">
               <img
                 class="img-fluid"
                 id="tamano-logo"
@@ -82,7 +90,10 @@
           </div>
 
           <!-- Empiezan iconos mobile -->
-          <div class="row align-items-center justify-content-end" id="iconosMobile">
+          <div
+            class="row align-items-center justify-content-end"
+            id="iconosMobile"
+          >
             <div class="col icono-header-display">
               <a href="#">
                 <svg
@@ -205,10 +216,19 @@
 
           <!-- Empiezan los iconos desktop -->
           <div class="col iconos">
-            <div class="container d-flex justify-content-end">
-              <div class="row px-5">
-                <div class="col align-items-center d-flex flex-column">
-                  <a href="#">
+            <div
+              class="container d-flex justify-content-end align-items-center"
+            >
+              <div class="row px-5 align-items-center">
+                <div class="col d-flex flex-column align-items-center">
+                  <a
+                    href="#"
+                    class="btn"
+                    role="button"
+                    id="dropdownMenuLink"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
                     <svg
                       class="iconoLink"
                       xlink:href="index.html"
@@ -247,36 +267,60 @@
                   </a>
                   <h7 class="nombre-icono">Mi carrito</h7>
                 </div>
+
                 <div class="col align-items-center d-flex flex-column">
-                  <a href="#"
-                    ><svg
-                      class="iconoLink"
-                      width="60"
-                      height="62"
-                      viewBox="0 0 60 62"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
+                  <div class="dropdown">
+                    <a
+                      href="#"
+                      class="btn"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      ><svg
+                        class="iconoLink"
+                        width="60"
+                        height="62"
+                        viewBox="0 0 60 62"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M10 20.6897H50"
+                          stroke="black"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                        />
+                        <path
+                          d="M10 40.9655H50"
+                          stroke="black"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                        />
+                        <path
+                          d="M10 30.8276H50"
+                          stroke="black"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                        />
+                      </svg>
+                    </a>
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuLink"
                     >
-                      <path
-                        d="M10 20.6897H50"
-                        stroke="black"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                      />
-                      <path
-                        d="M10 40.9655H50"
-                        stroke="black"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                      />
-                      <path
-                        d="M10 30.8276H50"
-                        stroke="black"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                      />
-                    </svg>
-                  </a>
+                      <li><a class="dropdown-item" href="contacto.html">Contactanos</a></li>
+                      <li>
+                        <a class="dropdown-item" href="aboutus.html">Sobre nosotros</a>
+                      </li>
+                      <li><a class="dropdown-item" href="carrito.html">Carrito</a></li>
+                      <li>
+                        <a class="dropdown-item" href="login.html">Inicia sesion</a>
+                      </li>
+                      <li><a class="dropdown-item" href="productos.html">Productos</a></li>
+                    </ul>
+                  </div>
+
                   <h7 class="nombre-icono">Menú</h7>
                 </div>
               </div>

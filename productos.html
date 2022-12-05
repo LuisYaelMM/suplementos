@@ -4,7 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Productos</title>
-    <link rel="stylesheet" href="/assets/css/styles2.css">
+    <link rel="stylesheet" href="assets/css/styles2.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,12 +21,19 @@
   </head>
   <body>
     <!-- nav inicio -->
-    
+
     <div class="container contenedor-encabezado">
       <nav class="navbar navbar-light row">
         <div class="container">
           <div class="col">
-            <a href="#" class="icono-header"
+            <a
+              href="#"
+              class="btn icono-header"
+              role="button"
+              id="dropdownMenuLink"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              class="icono-header"
               ><svg
                 class="iconoLink"
                 width="60"
@@ -54,7 +62,11 @@
                 />
               </svg>
             </a>
-            <a class="navbar-brand enlace-header" id="iconoEnlace" href="#">
+            <a
+              class="navbar-brand enlace-header"
+              id="iconoEnlace"
+              href="index.html"
+            >
               <img
                 class="img-fluid"
                 id="tamano-logo"
@@ -83,7 +95,10 @@
           </div>
 
           <!-- Empiezan iconos mobile -->
-          <div class="row align-items-center justify-content-end" id="iconosMobile">
+          <div
+            class="row align-items-center justify-content-end"
+            id="iconosMobile"
+          >
             <div class="col icono-header-display">
               <a href="#">
                 <svg
@@ -206,10 +221,19 @@
 
           <!-- Empiezan los iconos desktop -->
           <div class="col iconos">
-            <div class="container d-flex justify-content-end">
-              <div class="row px-5">
-                <div class="col align-items-center d-flex flex-column">
-                  <a href="#">
+            <div
+              class="container d-flex justify-content-end align-items-center"
+            >
+              <div class="row px-5 align-items-center">
+                <div class="col d-flex flex-column align-items-center">
+                  <a
+                    href="#"
+                    class="btn"
+                    role="button"
+                    id="dropdownMenuLink"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
                     <svg
                       class="iconoLink"
                       xlink:href="index.html"
@@ -248,36 +272,74 @@
                   </a>
                   <h7 class="nombre-icono">Mi carrito</h7>
                 </div>
+
                 <div class="col align-items-center d-flex flex-column">
-                  <a href="#"
-                    ><svg
-                      class="iconoLink"
-                      width="60"
-                      height="62"
-                      viewBox="0 0 60 62"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
+                  <div class="dropdown">
+                    <a
+                      href="#"
+                      class="btn"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      ><svg
+                        class="iconoLink"
+                        width="60"
+                        height="62"
+                        viewBox="0 0 60 62"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M10 20.6897H50"
+                          stroke="black"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                        />
+                        <path
+                          d="M10 40.9655H50"
+                          stroke="black"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                        />
+                        <path
+                          d="M10 30.8276H50"
+                          stroke="black"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                        />
+                      </svg>
+                    </a>
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuLink"
                     >
-                      <path
-                        d="M10 20.6897H50"
-                        stroke="black"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                      />
-                      <path
-                        d="M10 40.9655H50"
-                        stroke="black"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                      />
-                      <path
-                        d="M10 30.8276H50"
-                        stroke="black"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                      />
-                    </svg>
-                  </a>
+                      <li>
+                        <a class="dropdown-item" href="contacto.html"
+                          >Contactanos</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="aboutus.html"
+                          >Sobre nosotros</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="carrito.html">Carrito</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="login.html"
+                          >Inicia sesion</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="productos.html"
+                          >Productos</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+
                   <h7 class="nombre-icono">Menú</h7>
                 </div>
               </div>
@@ -286,7 +348,6 @@
         </div>
       </nav>
     </div>
-
 
     <!-- nav final -->
 
@@ -298,7 +359,7 @@
           <p class="display-6 pb-4">
             La mayor variedad de productos nutricionales de la más alta calidad.
             Nuestro principal objetivo consiste en que nuestros clientes logren
-            sus metas, gocen de una vida más logeva, fuerte y saludable.
+            sus metas, gocen de una vida más longeva, fuerte y saludable.
           </p>
           <p class="pb-2">Obtén envío gratis comprando $1,599 o más</p>
         </div>
@@ -306,275 +367,185 @@
     </section>
     <!-- intro final -->
     <!-- productos inicio -->
-   
-<!--  -->
-      <div class="container position-relative">
-        <div class="row justify-content-end">
-          <!-- menu izquierda inicio -->
-          <div class="col-lg-2 text-center">
-            <h3 class="py-4">Categorías</h3>
 
-            <ul class="nav flex-column">
-              <li class="nav-item py-2">
-                <a href="#" class="nav-link text-muted"> Proteínas </a>
-              </li>
+    <!--  -->
+    <div class="container position-relative">
+      <div class="row justify-content-end">
+        <!-- menu izquierda inicio -->
+        <div class="col-lg-2 text-center">
+          <h3 class="py-4">Categorías</h3>
 
-              <li class="nav-item py-2">
-                <a href="#" class="nav-link text-muted"> Aminoácidos </a>
-              </li>
+          <ul class="nav flex-column">
+            <li class="nav-item py-2">
+              <a href="#" class="nav-link text-muted"> Proteínas </a>
+            </li>
 
-              <li class="nav-item py-2">
-                <a href="#" class="nav-link text-muted"> Antioxidantes </a>
-              </li>
+            <li class="nav-item py-2">
+              <a href="#" class="nav-link text-muted"> Aminoácidos </a>
+            </li>
 
-              <li class="nav-item py-2">
-                <a href="#" class="nav-link text-muted">
-                  Quemadores de grasa
-                </a>
-              </li>
+            <li class="nav-item py-2">
+              <a href="#" class="nav-link text-muted"> Antioxidantes </a>
+            </li>
 
-              <li class="nav-item py-2">
-                <a href="#" class="nav-link text-muted"> Creatinas </a>
-              </li>
+            <li class="nav-item py-2">
+              <a href="#" class="nav-link text-muted"> Quemadores de grasa </a>
+            </li>
 
-              <li class="nav-item py-2">
-                <a href="#" class="nav-link text-muted"> Multivitamínicos </a>
-              </li>
-            </ul>
-          </div>
+            <li class="nav-item py-2">
+              <a href="#" class="nav-link text-muted"> Creatinas </a>
+            </li>
 
-          <!-- menu izquierda final -->
-          <!-- imgs productos inicia -->
-
-          <div class="col-10 d-flex flex-wrap justify-content-between text-center">
-            <div class="card m-4 shadow">
-              <a href="#">
-                <img
-                  src="https://placeimg.com/150/100/any"
-                  class="card-img-top"
-                  height="150"
-                  alt="chocho1"
-                />
-              </a>
-              <div class="card-body">
-                <p class="card-text fw-bold">chocho1</p>
-                <small class="text-secondary"> $ 499.00 </small>
-              </div>
-            </div>
-
-            <div class="card m-4 shadow">
-              <a href="#">
-                <img
-                  src="https://placeimg.com/150/100/any"
-                  class="card-img-top"
-                  height="150"
-                  alt="chocho1"
-                />
-              </a>
-              <div class="card-body">
-                <p class="card-text fw-bold">chocho1</p>
-                <small class="text-secondary"> $ 499.00 </small>
-              </div>
-            </div>
-
-            <div class="card m-4 shadow">
-              <a href="#">
-                <img
-                  src="https://placeimg.com/150/100/any"
-                  class="card-img-top"
-                  height="150"
-                  alt="chocho1"
-                />
-              </a>
-              <div class="card-body">
-                <p class="card-text fw-bold">chocho1</p>
-                <small class="text-secondary"> $ 499.00 </small>
-              </div>
-            </div>
-
-            <div class="card m-4 shadow">
-              <a href="#">
-                <img
-                  src="https://placeimg.com/150/100/any"
-                  class="card-img-top"
-                  height="150"
-                  alt="chocho1"
-                />
-              </a>
-              <div class="card-body">
-                <p class="card-text fw-bold">chocho1</p>
-                <small class="text-secondary"> $ 499.00 </small>
-              </div>
-            </div>
-
-            <div class="card m-4 shadow">
-              <a href="#">
-                <img
-                  src="https://placeimg.com/150/100/any"
-                  class="card-img-top"
-                  height="150"
-                  alt="chocho1"
-                />
-              </a>
-              <div class="card-body">
-                <p class="card-text fw-bold">chocho1</p>
-                <small class="text-secondary"> $ 499.00 </small>
-              </div>
-            </div>
-
-            <div class="card m-4 shadow">
-              <a href="#">
-                <img
-                  src="https://placeimg.com/150/100/any"
-                  class="card-img-top"
-                  height="150"
-                  alt="chocho1"
-                />
-              </a>
-              <div class="card-body">
-                <p class="card-text fw-bold">chocho1</p>
-                <small class="text-secondary"> $ 499.00 </small>
-              </div>
-            </div>
-
-            <div class="card m-4 shadow">
-              <a href="#">
-                <img
-                  src="https://placeimg.com/150/100/any"
-                  class="card-img-top"
-                  height="150"
-                  alt="chocho1"
-                />
-              </a>
-              <div class="card-body">
-                <p class="card-text fw-bold">chocho1</p>
-                <small class="text-secondary"> $ 499.00 </small>
-              </div>
-            </div>
-
-            <div class="card m-4 shadow">
-              <a href="#">
-                <img
-                  src="https://placeimg.com/150/100/any"
-                  class="card-img-top"
-                  height="150"
-                  alt="chocho1"
-                />
-              </a>
-              <div class="card-body">
-                <p class="card-text fw-bold">chocho1</p>
-                <small class="text-secondary"> $ 499.00 </small>
-              </div>
-            </div>
-
-            <div class="card m-4 shadow">
-              <a href="#">
-                <img
-                  src="https://placeimg.com/150/100/any"
-                  class="card-img-top"
-                  height="150"
-                  alt="chocho1"
-                />
-              </a>
-              <div class="card-body">
-                <p class="card-text fw-bold">chocho1</p>
-                <small class="text-secondary"> $ 499.00 </small>
-              </div>
-            </div>
-
-            <div class="card m-4 shadow">
-              <a href="#">
-                <img
-                  src="https://placeimg.com/150/100/any"
-                  class="card-img-top"
-                  height="150"
-                  alt="chocho1"
-                />
-              </a>
-              <div class="card-body">
-                <p class="card-text fw-bold">chocho1</p>
-                <small class="text-secondary"> $ 499.00 </small>
-              </div>
-            </div>
-
-            <div class="card m-4 shadow">
-              <a href="#">
-                <img
-                  src="https://placeimg.com/150/100/any"
-                  class="card-img-top"
-                  height="150"
-                  alt="chocho1"
-                />
-              </a>
-              <div class="card-body">
-                <p class="card-text fw-bold">chocho1</p>
-                <small class="text-secondary"> $ 499.00 </small>
-              </div>
-            </div>
-
-            <div class="card m-4 shadow">
-              <a href="#">
-                <img
-                  src="https://placeimg.com/150/100/any"
-                  class="card-img-top"
-                  height="150"
-                  alt="chocho1"
-                />
-              </a>
-              <div class="card-body">
-                <p class="card-text fw-bold">chocho1</p>
-                <small class="text-secondary"> $ 499.00 </small>
-              </div>
-            </div>
-
-          </div>
-          <!-- imgs productos termina -->
+            <li class="nav-item py-2">
+              <a href="#" class="nav-link text-muted"> Multivitamínicos </a>
+            </li>
+          </ul>
         </div>
-      </div>
-<!--  -->
 
+        <!-- menu izquierda final -->
+        <!-- imgs productos inicia -->
 
-<!-- productos final -->
-
-<!-- footer starts-->
-
-<footer class= "pie-pagina">
-        
-  <div class = "grupo1">
-      <div class= "box1">
-          <h2>Royal Bears</h2>
-          <a href="/aviso-de-privacidad.html" class="link"><p>Aviso de Privacidad</p></a>
-          <a href="/terminosycondiciones.html" class="link"><p>Terminos y Condiciones</p></a>
-      </div>
-      
-      <div class= "box2">
-          <div class="social">
-          <img src="/assets/img/facebook-32.ico" alt="Logo de Facebook">
-          <img src="/assets/img/instagram-6-32.ico" alt="Logo de Instagram">
-          <img src="/assets/img/twitter-32.ico" alt="Logo de twitter">
-          
+        <div
+          class="col-10 d-flex flex-wrap justify-content-between text-center"
+        >
+          <div class="card m-4 shadow" style="width: 18rem">
+            <a href="#">
+              <img
+                src="https://placeimg.com/250/100/any"
+                class="card-img-top"
+                height="250"
+                alt="chocho1"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text fw-bold">chocho1</p>
+              <small class="text-secondary"> $ 499.00 </small>
+            </div>
           </div>
-          
+
+          <div class="card m-4 shadow" style="width: 18rem">
+            <a href="#">
+              <img
+                src="https://www.suplementosmexico.com.mx/2025-superlarge_default/ak47-for-her-ak47-for-her-preentreno-y-quemador-de-army-nutrition.jpg"
+                class="card-img-top"
+                height="250"
+                alt="chocho1"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text fw-bold">chocho1</p>
+              <small class="text-secondary"> $ 499.00 </small>
+            </div>
+          </div>
+
+          <div class="card m-4 shadow" style="width: 18rem">
+            <a href="#">
+              <img
+                src="https://www.suplementosmexico.com.mx/2101-superlarge_default/kraken-white-40-servs-spartan.jpg"
+                class="card-img-top"
+                height="250"
+                alt="chocho1"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text fw-bold">chocho1</p>
+              <small class="text-secondary"> $ 499.00 </small>
+            </div>
+          </div>
+
+          <div class="card m-4 shadow" style="width: 18rem">
+            <a href="#">
+              <img
+                src="https://placeimg.com/150/100/any"
+                class="card-img-top"
+                height="250"
+                width="100"
+                alt="chocho1"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text fw-bold">chocho1</p>
+              <small class="text-secondary"> $ 499.00 </small>
+            </div>
+          </div>
+
+          <div class="card m-4 shadow" style="width: 18rem">
+            <a href="#">
+              <img
+                src="https://www.suplementosmexico.com.mx/2664-superlarge_default/isoject-4lbs-de-evogen.jpg"
+                class="card-img-top"
+                height="250"
+                width="100"
+                alt="chocho1"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text fw-bold">chocho1</p>
+              <small class="text-secondary"> $ 499.00 </small>
+            </div>
+          </div>
+
+          <div class="card m-4 shadow" style="width: 18rem">
+            <a href="#">
+              <img
+                src="https://www.suplementosmexico.com.mx/2664-superlarge_default/isoject-4lbs-de-evogen.jpg"
+                class="card-img-top"
+                height="250"
+                width="100"
+                alt="chocho1"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text fw-bold">chocho1</p>
+              <small class="text-secondary"> $ 499.00 </small>
+            </div>
+          </div>
+        </div>
+        <!-- imgs productos termina -->
       </div>
-      
-      <div class= "box3">
+    </div>
+    <!--  -->
+
+    <!-- productos final -->
+
+    <!-- footer starts-->
+
+    <footer class="pie-pagina">
+      <div class="grupo1">
+        <div class="box1">
+          <h2>Royal Bears</h2>
+          <a href="/aviso-de-privacidad.html" class="link"
+            ><p>Aviso de Privacidad</p></a
+          >
+          <a href="/terminosycondiciones.html" class="link"
+            ><p>Terminos y Condiciones</p></a
+          >
+        </div>
+
+        <div class="box2">
+          <div class="social">
+            <img src="/assets/img/facebook-32.ico" alt="Logo de Facebook" />
+            <img src="/assets/img/instagram-6-32.ico" alt="Logo de Instagram" />
+            <img src="/assets/img/twitter-32.ico" alt="Logo de twitter" />
+          </div>
+        </div>
+
+        <div class="box3">
           <h2>■Contactanos</h2>
           <p>Republica Mexicana</p>
           <p>800-000-000</p>
           <p>CDMX y area metropolitana</p>
           <p>55-1203-0502</p>
           <p>Correo: placeholder@correo.com</p>
+        </div>
       </div>
-  </div>
 
-  <div class="grupo2">
-      <h2>© Derechos Reservados</h2>
-  </div>
+      <div class="grupo2">
+        <h2>© Derechos Reservados</h2>
+      </div>
+    </footer>
 
-</footer>
-
-
-<!-- footer final -->
+    <!-- footer final -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"

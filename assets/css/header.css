@@ -2,7 +2,7 @@
   background-color: #57ce45;
 }
 
-* :not {
+* {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 

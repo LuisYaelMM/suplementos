@@ -2,6 +2,10 @@
   background-color: #57ce45;
 }
 
+*{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
 .barraBusqueda {
   padding: 0;
 }

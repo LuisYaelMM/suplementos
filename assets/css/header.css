@@ -6,7 +6,6 @@
   padding: 0;
 }
 
-<<<<<<< HEAD
 .contenedor-encabezado{
   max-width: 100%;
 }
@@ -25,8 +24,6 @@
   }
 }
 
-=======
->>>>>>> refs/remotes/origin/main
 #iconoEnlace {
   margin-left: 10%;
 }
@@ -139,13 +136,11 @@ h7 {
   height: 8em;
   justify-content: flex center;
   display: flex center;
-  margin-left: 4em;
 }
 #botoon3 {
   background-image: url("https://cdn.shopify.com/s/files/1/0553/0435/6031/products/FlowMeteora-Octubre-07_120x.jpg");
   text-shadow: white;
   text-shadow: 3px 3px 2px #FFFFFF(128, 0, 0, 1);
-
   opacity: 0.5;
   font-size: 30px;
   font-family: sans-serif;
@@ -155,5 +150,4 @@ h7 {
   height: 8em;
   justify-content: flex right;
   display: flex right;
-  margin-left: 4em;
 }

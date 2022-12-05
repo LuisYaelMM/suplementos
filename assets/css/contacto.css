@@ -1,4 +1,3 @@
-
 /* css CONTACTO */
 h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
@@ -58,6 +57,13 @@ footer{
     margin-top: auto;
 }
 /* fin css footer */
+.warnings{
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    color: green;
+    padding-top: 15px;
+}
 @media screen and (max-width:1000px){
    .arriba{
     flex-direction: column;

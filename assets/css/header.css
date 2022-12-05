@@ -2,7 +2,7 @@
   background-color: #57ce45;
 }
 
-* :not {
+* {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
@@ -147,6 +147,7 @@ h7 {
 }
 #botoon3 {
   background-image: url("https://cdn.shopify.com/s/files/1/0553/0435/6031/products/FlowMeteora-Octubre-07_120x.jpg");
+  background-size: 100%;
   text-shadow: white;
   text-shadow: 3px 3px 2px #FFFFFF(128, 0, 0, 1);
   opacity: 0.5;

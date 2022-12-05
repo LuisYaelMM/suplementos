@@ -326,7 +326,7 @@
             <div class="col-lg-5 p-5">
               <div class="px-lg-5 py-lg-4 p-4">
                 <h1 class="mb-4 text-center">Acesso a tu cuenta</h1>
-                <form>
+                <form class="row g-3 needs-validation" novalidate>
                   <div class="mb-3">
                     <label
                       for="exampleInputEmail1"
@@ -339,7 +339,12 @@
                       placeholder="Ingresa tu email"
                       id="exampleInputEmail1"
                       aria-describedby="emailHelp"
+                      required
                     />
+                    <!--validacion  -->
+                    <div class="valid-feedback">OK</div>
+                    <div class="invalid-feedback">Es necesario poner una dirección de correo electrónico</div>
+                    <!--  -->
                     <div id="emailHelp" class="form-text">
                       Nunca compartiremos tu correo electrónico con nadie más.
                     </div>
@@ -352,7 +357,12 @@
                       type="password"
                       class="form-control mb-2"
                       id="exampleInputPassword1"
+                      required
                     />
+                     <!--validacion  -->
+                     <div class="valid-feedback">OK</div>
+                     <div class="invalid-feedback">Es necesario poner tu contraseña</div>
+                     <!--  -->
                     <a
                       href="#"
                       id="contrasenaHelp"
@@ -437,6 +447,31 @@
 
 
 <!-- footer final -->
+<script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+(() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+
+</script>
+
+
+
 
 <script
 src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"

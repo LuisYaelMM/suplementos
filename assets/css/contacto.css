@@ -1,14 +1,21 @@
-
 /* css CONTACTO */
+<<<<<<< HEAD
 h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
    
 }
+=======
+
+>>>>>>> Anapau
 .arriba{
     margin-top: 1rem;
     margin-left: 4rem;
 }
+<<<<<<< HEAD
  .contenedor-contactanos{
+=======
+.conten{
+>>>>>>> Anapau
     display: inline-block;
     margin-left: 3rem;
     margin-right: 1rem;
@@ -37,11 +44,13 @@ h1{
 .oso{
     border-radius: 1em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    margin-top: 2em;
 }
 .segundocont{
    display: inline-block;
    position:absolute;
    right: 200px;
+<<<<<<< HEAD
    top: 240px;
 }
 
@@ -51,30 +60,62 @@ h1{
     border-color: limegreen;
 } 
 .boton-contactanos:hover{
+=======
+   top: 245px;
+}
+
+#benvio{
+    background-color: rgb(1, 247, 1);
+    color: white;
+    border-color: limegreen;
+    margin-bottom: 1em;
+}
+#benvio:hover{
+>>>>>>> Anapau
     background-color: white;
     color: black;
     border-color: whitesmoke;
 }
+<<<<<<< HEAD
+=======
+/* css footer */
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+}
+/* fin css footer */
+.warnings{
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    color: green;
+    padding-top: 15px;
+}
+>>>>>>> Anapau
 @media screen and (max-width:1000px){
    .arriba{
     flex-direction: column;
-    margin-left: 6rem;
+     margin-left: 1rem; 
    }
     .cuadnom{
         flex-direction: column;
-        width: 20rem;
+        width: 25rem;
         padding: 0;
         
     }
     .mail{
         flex-direction: column;
-        width: 20rem;
+        width: 25rem;
         padding: 0;
         
     }
     .mensaje{
         flex-direction:column;
-       width: 20rem;
+       width: 25rem;
         height: 15rem;
         padding-bottom: 220px; 
        
@@ -88,8 +129,12 @@ h1{
    height: 5rem;
    border-radius: 1em; */
 }
- .container{
+ .conten{
         margin-right: 1rem;
     }
+
+.form{
+    margin-left: 3em;
+}
     
 }

@@ -14,7 +14,11 @@
   padding: 0;
 }
 
+<<<<<<< HEAD
 .contenedor-encabezado {
+=======
+.contenedor-encabezado{
+>>>>>>> Anapau
   max-width: 100%;
 }
 @media screen and (max-width: 820px) {
@@ -36,12 +40,21 @@
   margin-left: 10%;
 }
 
+<<<<<<< HEAD
 .icono-header {
   display: none;
 }
 
 #iconosMobile {
   display: none;
+=======
+.icono-header{
+  display:none;
+}
+
+#iconosMobile{
+  display:none;
+>>>>>>> Anapau
 }
 
 .contenedor-encabezado {
@@ -55,11 +68,19 @@
     transform: scale(0.5);
   }
 
+<<<<<<< HEAD
   #iconosMobile {
     display: flex;
   }
 
   .icono-header {
+=======
+  #iconosMobile{
+    display:flex;
+  }
+
+  .icono-header{
+>>>>>>> Anapau
     display: inline;
   }
 
@@ -159,4 +180,8 @@ h7 {
   height: 8em;
   justify-content: flex right;
   display: flex right;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> Anapau

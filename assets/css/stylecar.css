@@ -10,6 +10,10 @@ h1{
     padding-bottom: 20vh;
 
 }
+.btn-primary{
+    background-color: #57CE45;
+    border: none;
+}
 aside{
     width: auto;
     background-color: gray;

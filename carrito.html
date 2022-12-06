@@ -27,6 +27,11 @@
           <div class="col">
             <a
               href="#"
+              class="btn icono-header"
+              role="button"
+              id="dropdownMenuLink"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
               class="icono-header"
               ><svg
                 class="iconoLink"
@@ -56,7 +61,7 @@
                 />
               </svg>
             </a>
-            <a class="navbar-brand enlace-header" id="iconoEnlace" href="#">
+            <a class="navbar-brand enlace-header" id="iconoEnlace" href="index.html">
               <img
                 class="img-fluid"
                 id="tamano-logo"
@@ -83,14 +88,14 @@
               </button>
             </div>
           </div>
-
+  
           <!-- Empiezan iconos mobile -->
           <div
             class="row align-items-center justify-content-end"
             id="iconosMobile"
           >
             <div class="col icono-header-display">
-              <a href="#">
+              <a href="carrito.html">
                 <svg
                   class="iconoLink"
                   width="30"
@@ -208,7 +213,7 @@
               </a>
             </div>
           </div>
-
+  
           <!-- Empiezan los iconos desktop -->
           <div class="col iconos">
             <div
@@ -217,12 +222,7 @@
               <div class="row px-5 align-items-center">
                 <div class="col d-flex flex-column align-items-center">
                   <a
-                    href="#"
-                    class="btn"
-                    role="button"
-                    id="dropdownMenuLink"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
+                    href="carrito.html"                 
                   >
                     <svg
                       class="iconoLink"
@@ -262,7 +262,7 @@
                   </a>
                   <h7 class="nombre-icono">Mi carrito</h7>
                 </div>
-
+  
                 <div class="col align-items-center d-flex flex-column">
                   <div class="dropdown">
                     <a
@@ -315,7 +315,7 @@
                       <li><a class="dropdown-item" href="productos.html">Productos</a></li>
                     </ul>
                   </div>
-
+  
                   <h7 class="nombre-icono">Menú</h7>
                 </div>
               </div>
@@ -330,17 +330,43 @@
         <div class="row align-items-start">
 <!-- Columna principal -->
             <div class="col-8">
-                <h2 class="prod">Hola Columna8</h2>
-                <h2 class="prod">Hola Columna8</h2>
-                <h2 class="prod">Hola Columna8</h2>
+              <!-- Producto 1 -->
+              <div class="card mb-3" style="max-height: auto;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="https://www.suplementosmexico.com.mx/2025-superlarge_default/ak47-for-her-ak47-for-her-preentreno-y-quemador-de-army-nutrition.jpg"
+                     class="img-fluid rounded-start" alt="Suplemento">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Nombre del suplemento</h5>
+                      <p class="card-text">Breve descripción</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3" style="max-height: auto;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="https://www.suplementosmexico.com.mx/2025-superlarge_default/ak47-for-her-ak47-for-her-preentreno-y-quemador-de-army-nutrition.jpg"
+                     class="img-fluid rounded-start" alt="Suplemento">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Nombre del suplemento</h5>
+                      <p class="card-text">Breve descripción y precio</p>
+                    </div>
+                  </div>
+                </div>
+              </div>           
             </div>
 <!-- Columna lateral -->
-            <aside class="col-4">
+            <aside class="card col-4 mb-3" style="max-height: auto;">
                 <h2 class="cant">Cantidad: </h2>
                 <h3>Subtotal: </h3>
                 <h3>IVA:</h3>
                 <h3 class="cant">Costo de Envío: </h3>
-                <h3>Envío</h3>
+                <h3>Envío:</h3>
                 
             </aside>
 <!-- Cantidad a Pagar  -->
@@ -356,22 +382,22 @@
       <div class="container boton">
         <div class="row">
           <div class="text-center col-8">
-            <button type="button" class="btn btn-success btn-lg">Continuar comprando</button>
+            <button type="button" class="btn btn-success btn-lg">Agregar más productos</button>
           </div>
           <div class="text-center col-4">
             <button type="submit" class="btn btn-danger btn-lg">Comprar ahora</button>
           </div>
         </div>
       </div>
-    <br><br>
-  </div>
+    </div>
   <!-- Inicio de footer -->
   <footer class= "pie-pagina">
+        
     <div class = "grupo1">
         <div class= "box1">
             <h2>Royal Bears</h2>
-            <a href="./aviso-de-privacidad.html" class="link"><p>Aviso de Privacidad</p></a>
-            <a href="./terminosycondiciones.html" class="link"><p>Terminos y Condiciones</p></a>
+            <a href="./aviso-de-privacidad.html" class="link link-legal"><p>Aviso de Privacidad</p></a>
+            <a href="./terminosycondiciones.html" class="link link-legal"><p>Terminos y Condiciones</p></a>
         </div>
         
         <div class= "box2">
@@ -397,6 +423,8 @@
     <div class="grupo2">
         <h2>© Derechos Reservados</h2>
     </div>
+
+</footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"

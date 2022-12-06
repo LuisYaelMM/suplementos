@@ -2,25 +2,33 @@
   background-color: #57ce45;
 }
 
+* {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.fa {
+  font-family: "FontAwesome" !important;
+}
+
 .barraBusqueda {
   padding: 0;
 }
 
-.contenedor-encabezado{
+.contenedor-encabezado {
   max-width: 100%;
 }
-@media screen and (max-width:820px){
-  .responsivo-busqueda{
-    display:none;
+@media screen and (max-width: 820px) {
+  .responsivo-busqueda {
+    display: none;
   }
-  .iconoLink{
-    transform:scale(0.8);
+  .iconoLink {
+    transform: scale(0.8);
   }
-  .nombre-icono{
-    display:none;
+  .nombre-icono {
+    display: none;
   }
-  .iconos{
-    display:none;
+  .iconos {
+    display: none;
   }
 }
 
@@ -28,12 +36,12 @@
   margin-left: 10%;
 }
 
-.icono-header{
-  display:none;
+.icono-header {
+  display: none;
 }
 
-#iconosMobile{
-  display:none;
+#iconosMobile {
+  display: none;
 }
 
 .contenedor-encabezado {
@@ -47,11 +55,11 @@
     transform: scale(0.5);
   }
 
-  #iconosMobile{
-    display:flex;
+  #iconosMobile {
+    display: flex;
   }
 
-  .icono-header{
+  .icono-header {
     display: inline;
   }
 
@@ -139,6 +147,7 @@ h7 {
 }
 #botoon3 {
   background-image: url("https://cdn.shopify.com/s/files/1/0553/0435/6031/products/FlowMeteora-Octubre-07_120x.jpg");
+  background-size: 100%;
   text-shadow: white;
   text-shadow: 3px 3px 2px #FFFFFF(128, 0, 0, 1);
   opacity: 0.5;

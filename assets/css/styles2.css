@@ -119,17 +119,14 @@ footer{
 
 
 @media screen and (max-width: 750px) {
-    .box3{
-    display:none;
-}
-
-.link-legal{
+    .box3,.link-legal{
     display:none;
 }
     .link{
-        font-size: 2px;
+        font-size: 0px;
         resize: horizontal;
     }
+
 
 }
 @media screen and (max-width: 850px) {

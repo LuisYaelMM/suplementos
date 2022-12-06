@@ -347,26 +347,27 @@
         <div class="col-lg-5 p-5">
             <div class="px-lg-5 py-lg-4 p-4">
               <h1 class="mb-4 text-center">¡Regístrate!</h1>
-              <form>
+              <form action="" id="form" method="post">
                 <div class="border-1">
                   <label for="exampleName" class="form-label font-weight-bold">Nombre:</label>
                   <input type="name" class="form-control border-1 mb-3" placeholder="Nombre(s) y Apellidos"
-                    id="exampleInputName" aria-describedby="" />
+                    id="name" aria-describedby="" />
                 </div>
                 <div class="border-1">
                   <label for="exampleInputEmail1" class="form-label font-weight-bold">Ingresa un Email:</label>
                   <input type="email" class="form-control border-1 mb-3" placeholder="suplementos@ejemplo.com"
-                    id="exampleInputEmail1" aria-describedby="emailHelp" />
+                    id="email" aria-describedby="emailHelp" />
                 </div>
                 <div class="mb-3">
                   <label for="exampleInputPassword1" class="form-label">Crea una contraseña:</label>
                   <input type="password" class="form-control mb-3" placeholder="(8 carácteres mínimo)"
-                    id="exampleInputPassword1" />
+                    id="password" />
                   <div class="mb-5">
                     <label for="exampleInputPassword1" class="form-label">Repite la contraseña:</label>
-                    <input type="password" class="form-control mb-3" id="exampleInputPassword1" />
+                    <input type="password" class="form-control mb-3" id="passDos" />
                   </div>
                   <button type="submit" class="btn btn-primary fw-bold w-100 mb-2" >Crear Cuenta</button>
+                  <p class="warnings" id="warnings"></p>
               </form>
 
             </div>
@@ -423,6 +424,6 @@
   integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
   crossorigin="anonymous"
 ></script>
-<script src="/assets/js/formulario-validacion.js"></script>
+<script src="assets/js/formulario-validacion.js"></script>
 </body>
 </html>

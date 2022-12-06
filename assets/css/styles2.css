@@ -122,24 +122,12 @@ footer{
     .box3,.link-legal{
     display:none;
 }
-<<<<<<< HEAD
     .link{
         font-size: 0px;
         resize: horizontal;
     }
 
 
-=======
-
-.link-legal{
-    display:none;
-}
-    .link{
-        font-size: 2px;
-        resize: horizontal;
-    }
-
->>>>>>> Anapau
 }
 @media screen and (max-width: 850px) {
     .box3{

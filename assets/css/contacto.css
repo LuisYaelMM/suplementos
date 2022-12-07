@@ -22,16 +22,26 @@
     height: 13rem;
     padding-bottom: 180px;
 }
-.oso{
-    border-radius: 1em;
+#osito{
+   border-radius: 1em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-    margin-top: 2em;
-}
+   /*  margin-top: 2em;  */
+   /*  width: 350px;
+    height: 350px;  */
+  /*   height: auto; */
+
+   
+    
+  /*  display: inline-block;
+   width:150px;
+  height:150px; */
+  /* float: right; */
+} 
 .segundocont{
    display: inline-block;
    position:absolute;
    right: 200px;
-   top: 245px;
+   top: 230px;
 }
 
 #benvio{
@@ -45,43 +55,34 @@
     color: black;
     border-color: whitesmoke;
 }
-/* css footer */
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-footer{
-    margin-top: auto;
-}
-/* fin css footer */
+
 .warnings{
     width: 150px;
     text-align: center;
     margin: auto;
-    color: green;
+    color: rgb(126, 126, 126);
     padding-top: 15px;
 }
-@media screen and (max-width:1000px){
+@media screen and (max-width:820px){
    .arriba{
     flex-direction: column;
      margin-left: 1rem; 
    }
     .cuadnom{
         flex-direction: column;
-        width: 25rem;
+        width: 20rem;
         padding: 0;
         
     }
     .mail{
         flex-direction: column;
-        width: 25rem;
+        width: 20rem;
         padding: 0;
         
     }
     .mensaje{
         flex-direction:column;
-       width: 25rem;
+       width: 20rem;
         height: 15rem;
         padding-bottom: 220px; 
         padding-left: 1px;
@@ -89,6 +90,7 @@ footer{
     }
 .oso{
     display:none;
+    height: auto;
    /*  position:absolute;
     top: 700px;
     left: 30px;

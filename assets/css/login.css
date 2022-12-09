@@ -13,3 +13,13 @@
     background-position: center; 
 }
 
+.btn-primary{
+    font-size: 1.3rem;
+    background-color: #57CE45;
+    border: 0px;
+  }
+  
+  .login{
+    margin-top: 50px;
+  }
+  

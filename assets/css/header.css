@@ -1,14 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@700&family=Titillium+Web:wght@300;400&display=swap');
+
+
+
+
+
+
 .navbar {
   background-color: #57ce45;
   margin-bottom:2%;
 }
 
 * {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 .fa {
-  font-family: "FontAwesome" !important;
+  font-family: "FontAwesome";
 }
 
 .barraBusqueda {

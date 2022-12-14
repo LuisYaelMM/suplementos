@@ -18,6 +18,22 @@
   background-color: #57CE45;
   border: 0px;
 }
+.btn{
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 
 .login{
   margin-top: 50px;

@@ -13,15 +13,15 @@ form.addEventListener("submit",e=>{
     parrafo.innerHTML = ""
     if(nombre.value.length<6){
         
-        warnings += `El nombre no es valido <br>`
+        warnings += `El nombre no es válido <br>`
         entrar=true 
     }
 if(!regexEmail.test(email.value)){
-        warnings += `El email no es valido <br>`
+        warnings += `El email no es válido <br>`
         entrar=true
     }
     if(pass.value.length<8){
-        warnings += `La contraseña no es valida <br>`
+        warnings += `La contraseña no es válida <br>`
         entrar=true
     }
     if(passDos.value !== pass.value){

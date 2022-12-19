@@ -18,7 +18,7 @@
   background-color: #57CE45;
   border: 0px;
 }
-.btn{
+.btn-primary{
   display: inline-block;
   cursor: pointer;
   text-align: center;	
@@ -29,7 +29,7 @@
   border-radius: 15px;
   box-shadow: 0 9px #999;
 }
-.btn:active {
+.btn-primary:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);

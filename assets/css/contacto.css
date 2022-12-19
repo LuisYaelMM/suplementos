@@ -48,13 +48,7 @@
     border-color: whitesmoke;
 }
 
-.warnings{
-    width: 150px;
-    text-align: center;
-    margin: auto;
-    color: rgb(126, 126, 126);
-    padding-top: 15px;
-}
+
 @media screen and (max-width:820px){
    .arriba{
     flex-direction: column;

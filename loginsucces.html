@@ -3,41 +3,72 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Contacto</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
+    <title>Login</title>
+    <link rel="stylesheet" href="assets/css/styles2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/login.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
 
     <script
       src="https://kit.fontawesome.com/5cf46260e1.js"
       crossorigin="anonymous"
     ></script>
-
-    <link rel="stylesheet" href="assets/css/contacto.css">
-    <link rel="stylesheet" href="assets/css/header.css" />
-    <link rel="stylesheet" href="assets/css/styles2.css" />
   </head>
+
   <body>
-    <!-- ENCABEZADO -->
+    <!-- nav inicio -->
     <div class="container contenedor-encabezado">
       <nav class="navbar navbar-light row">
         <div class="container">
           <div class="col">
             <a
-             
+              href="#"
               class="btn icono-header"
               role="button"
               id="dropdownMenuLink"
               data-bs-toggle="dropdown"
               aria-expanded="false"
-              class="navbar-brand" id="iconoEnlace" href="index.html">
-              <img src="assets/imgassets/img/Royal.png" width="100" height="100" alt="" />
+              class="icono-header"
+              ><svg
+                class="iconoLink"
+                width="60"
+                height="62"
+                viewBox="0 0 60 62"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10 20.6897H50"
+                  stroke="black"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M10 40.9655H50"
+                  stroke="black"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M10 30.8276H50"
+                  stroke="black"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </a>
+            <a class="navbar-brand enlace-header" id="iconoEnlace" href="index.html">
+              <img
+                class="img-fluid"
+                id="tamano-logo"
+                src="assets/img/Royal.png"
+                width="100"
+                height="100"
+                alt=""
+              />
             </a>
           </div>
-          <div class="col-6">
+          <div class="col-6 responsivo-busqueda">
             <div class="container"></div>
             <div class="row">
               <div class="form-outline col-11 barraBusqueda">
@@ -225,7 +256,7 @@
                       />
                     </svg>
                   </a>
-                  <h7>Mi carrito</h7>
+                  <h7 class="nombre-icono">Mi carrito</h7>
                 </div>
   
                 <div class="col align-items-center d-flex flex-column">
@@ -269,11 +300,15 @@
                       class="dropdown-menu"
                       aria-labelledby="dropdownMenuLink"
                     >
-                    <li><a class="dropdown-item" href="new.html">Iniciar sesión</a></li>
-                    <li><a class="dropdown-item" href="carrito.html">Carrito</a></li>
-                    <li><a class="dropdown-item" href="productos.html">Productos</a></li>
-                    <li><a class="dropdown-item" href="contacto.html">Contáctanos</a></li>
-                    <li><a class="dropdown-item" href="aboutus.html">Sobre nosotros</a></li>
+                      <li><a class="dropdown-item" href="contacto.html">Contactanos</a></li>
+                      <li>
+                        <a class="dropdown-item" href="aboutus.html">Sobre nosotros</a>
+                      </li>
+                      <li><a class="dropdown-item" href="carrito.html">Carrito</a></li>
+                      <li>
+                        <a class="dropdown-item" href="login.html">Inicia sesion</a>
+                      </li>
+                      <li><a class="dropdown-item" href="productos.html">Productos</a></li>
                     </ul>
                   </div>
   
@@ -285,126 +320,114 @@
         </div>
       </nav>
     </div>
-    
+    <!-- nav final -->
+    <!-- login starts -->
+    <div class="row login g-0 mb-5">
+      <div class="col align-self-center mt-3">
+        <div class="container shadow rounded">
+          <div class="row">
+            <div class="col-lg-7 img-login d-none d-lg-block rounded"></div>
 
-    <!-- CONTACTANOS -->
-    <div class="arriba">
-      <h1>Contáctanos</h1>
-      <p>Estamos para ti en dónde nos necesites, descubre todas nuestras redes sociales, y nuestros productos con una experiencia fácil y siempre disponible.</p>
-  </div>
-   
-<div class="conten-padre">
-  <div class="formu-info">
-        <form class="row needs-validation" novalidate>
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Nombre</label>
-        <input type="text" class="form-control cuadnom" id="exampleInputname" id="elnombre"aria-describedby="emailHelp" placeholder="Nombre o alias" required>
-          <!--validacion  -->
-          <div class="valid-feedback">OK</div>
-          <div class="invalid-feedback">El nombre es muy corto</div>
-          <!--  -->
-        <div id="nameHelp" class="form-text"></div>
-      </div>
-      <div class="mb-3"></div>
-      <label for="exampleInputEmail1" class="form-label">Email</label>
-        <input type="email" class="form-control mail" id="exampleInputEmail1" id="elmail" aria-describedby="emailHelp" placeholder="Correo Electrónico 'suplementos@mail.com' " required>
-         <!--validacion  -->
-         <div class="valid-feedback">OK</div>
-         <div class="invalid-feedback">El correo electrónico es invalido</div>
-         <!--  -->
-        <div id="emailHelp" class="form-text"></div>
-     
-      <div class="mb-3"></div>
-      <label for="exampleInputEmail1" class="form-label">Mensaje </label>
-        <input type="text" class="form-control mensajge" id="exampleInputmensaje" aria-describedby="emailHelp" placeholder="Escribe tu mensaje" >
-        <div id="mensajeHelp" class="form-text"></div>
-      
-      <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1" id="terminos" required>
-        <label class="form-check-label" for="exampleCheck1">Acepto los Términos y Condiciones.</label></div>
-      <!--validacion  -->
-      
-      <div class="invalid-feedback">Tienes que aceptar nuestros terminos y condiciones</div>
-      <!--  -->
-      <button type="submit" class="btn btn-primary" id="benvio">Enviar</button>
-      
-      
-      
-       </form>
-      </div>
+            <div class="col-lg-5 p-5">
+              <div class="px-lg-5 py-lg-4 p-4">
+                <h1 class="mb-4 text-center">Felicidades!</h1>
+                <h2 class="mb-4 text-center">Has iniciado sesion con exito.</h2>
+                <br>
+                <br>
+                <br>
+                <br>
 
-      <img class="osito" src="assets/img/Royal.jpg"  alt="logooso">   
-  </div>
-</div>
-  
-  
-  
-    <!-- FIN DE CONTACTANOS -->
+                    
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100 mb-2 fw-bold">
+                   Ir a la pagina principal
+                  </button>
+                
 
-    <!-- INICIO FOOTER -->
-    <footer class= "pie-pagina">
-        
-      <div class = "grupo1">
-          <div class= "box1">
-              <h2>Royal Bears</h2>
-              <a href="./aviso-de-privacidad.html" class="link link-legal"><p>Aviso de Privacidad</p></a>
-              <a href="./terminosycondiciones.html" class="link link-legal"><p>Términos y Condiciones</p></a>
-          </div>
-          
-          <div class= "box2">
-              <div class="social">
-              <img class="facelogo" src="https://cdn-icons-png.flaticon.com/512/59/59439.png" alt="Logo de Facebook">
-              <img class="logoinsta" src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png" alt="Logo de Instagram">
-              <img class="logotwi" src="https://cdn-icons-png.flaticon.com/512/733/733635.png" alt="Logo de twitter">
-              
+                <div>
+                 
+                </div>
               </div>
-              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- login ends -->
+
+
+<!-- footer starts-->
+
+<footer class= "pie-pagina">
+        
+  <div class = "grupo1">
+      <div class= "box1">
+          <h2>Royal Bears</h2>
+          <a href="./aviso-de-privacidad.html" class="link link-legal"><p>Aviso de Privacidad</p></a>
+          <a href="./terminosycondiciones.html" class="link link-legal"><p>Terminos y Condiciones</p></a>
+      </div>
+      
+      <div class= "box2">
+          <div class="social">
+          <img class="facelogo" src="https://cdn-icons-png.flaticon.com/512/59/59439.png" alt="Logo de Facebook">
+          <img class="logoinsta" src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png" alt="Logo de Instagram">
+          <img class="logotwi" src="https://cdn-icons-png.flaticon.com/512/733/733635.png" alt="Logo de twitter">
+          
           </div>
           
-          <div class= "box3">
-              <h2>Contáctanos</h2>
-              <p>República Mexicana</p>
-              <p>800-000-000</p>
-              <p>CDMX y área metropolitana</p>
-              <p>55-1203-0502</p>
-              <p>Correo: placeholder@correo.com</p>
-          </div>
       </div>
-  
-      <div class="grupo2">
-          <h2>© Derechos Reservados</h2>
+      
+      <div class= "box3">
+          <h2>Contactanos</h2>
+          <p>Republica Mexicana</p>
+          <p>800-000-000</p>
+          <p>CDMX y area metropolitana</p>
+          <p>55-1203-0502</p>
+          <p>Correo: placeholder@correo.com</p>
       </div>
-  
-  </footer>
-    <!-- FIN DE FOOTER -->
-<!-- SCRIPT DE VALIDACION -->
-    <script>
-      // Example starter JavaScript for disabling form submissions if there are invalid fields
-    (() => {
-      'use strict'
-    
-      // Fetch all the forms we want to apply custom Bootstrap validation styles to
-      const forms = document.querySelectorAll('.needs-validation')
-    
-      // Loop over them and prevent submission
-      Array.from(forms).forEach(form => {
-        form.addEventListener('submit', event => {
-          if (!form.checkValidity()) {
-            event.preventDefault()
-            event.stopPropagation()
-          }
-    
-          form.classList.add('was-validated')
-        }, false)
-      })
-    })()
-  
-    </script>
+  </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
+  <div class="grupo2">
+      <h2>© Derechos Reservados</h2>
+  </div>
+
+</footer>
+
+    <!-- footer final -->
+
+
+<!-- footer final -->
+<script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+(() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+
+</script>
+
+
+
+
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+crossorigin="anonymous"
+></script>
   </body>
 </html>

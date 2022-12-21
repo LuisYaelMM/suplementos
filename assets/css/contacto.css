@@ -1,13 +1,13 @@
 /* css CONTACTO */
 
 .arriba{
-    margin-top: 1rem;
+    margin-top: 4rem;
     margin-left: 5rem;
 }
 
 .conten-padre{
     height: 1000px;
-    width: 1100px;
+    width: 1130px;
     margin: 4em auto;
     display: flex;
     justify-content: space-between;
@@ -28,15 +28,19 @@
 }
 .mail{
     width: 35rem;
+    margin-left: 15px;
 }
 .mensajge{
     width: 35rem;
     height: 13rem;
     padding-bottom: 180px;
+    margin-left: 15px;
 }
 
-
-#benvio{
+.minic{
+    margin-left: 15px;
+}
+/* #benvio{
     background-color: rgb(1, 247, 1);
     color: white;
     border-color: limegreen;
@@ -46,7 +50,29 @@
     background-color: white;
     color: black;
     border-color: whitesmoke;
-}
+} */
+#benvio:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    width: 7rem;
+  }
+#benvio{
+    font-size: 1.3rem;
+    background-color: #57CE45;
+    border: 0px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    width: 7rem;
+    margin-left: 12px;
+  }
 
 
 @media screen and (max-width:820px){
